@@ -41,6 +41,10 @@ export default {
         undo: "$t:wysiwyg_options.undo",
         redo: "$t:wysiwyg_options.redo",
         table: "$t:wysiwyg_options.table",
+        highlight: "Highlight",
+        textAlignLeft: "Left Align",
+        textAlignRight: "Right Align",
+        textAlignCenter: "Center Align",
     },
     table: {
         insert: "Insert table",
