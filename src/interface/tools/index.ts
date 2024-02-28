@@ -17,6 +17,7 @@ import orderedList from "./ordered-list";
 import blockquote from "./blockquote";
 import textAlign from "./text-align";
 import highlight from "./highlight";
+import table from "./table";
 import type { AnyExtension } from "@tiptap/core";
 import type { Tool, ToolSelection, InterfaceOption } from "../types";
 
@@ -48,6 +49,7 @@ const tools: Tool[] = [
   textAlign.centerAlign,
   textAlign.rightAlign,
   highlight,
+  table,
 ];
 
 export const selectedTools = (selection: ToolSelection) =>
